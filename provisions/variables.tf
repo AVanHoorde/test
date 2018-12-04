@@ -5,3 +5,11 @@ variable "heroku_email" {
 variable "heroku_api_key" {
     type = "string"
 }
+
+variable "appname" {
+    type = "string"
+}
+
+variable "env" {
+    type = "string"
+}

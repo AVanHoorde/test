@@ -4,7 +4,7 @@ provider "heroku" {
 }
 # Create new app
 resource "heroku_app" "staging" {
-  name   = "stagingdevopswsf1"
+  name   = "teststaging1"
   region = "eu"
 
   config_vars {
@@ -18,7 +18,7 @@ resource "heroku_app" "staging" {
 
 # Create new app
 resource "heroku_app" "production" {
-  name   = "productiondevopswsf1"
+  name   = "testproduction1"
   region = "eu"
 
   config_vars {
