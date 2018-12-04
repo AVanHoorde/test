@@ -1,3 +1,7 @@
+provider "heroku" {
+    email   = "${var.heroku_email}"
+    api_key = "${var.heroku_api_key}"
+}
 # Create new app
 resource "heroku_app" "staging" {
   name   = "stagingdevopswsf1"
